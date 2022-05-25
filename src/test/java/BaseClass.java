@@ -52,6 +52,10 @@ public class BaseClass {
     	System.out.println("US guys commited this code");
     	
     }
+    
+    public void masterbranch() {
+    	//added on gitbyrahul 
+    }
 
 
 }
