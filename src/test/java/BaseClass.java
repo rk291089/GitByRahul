@@ -46,4 +46,10 @@ public class BaseClass {
     public void terminateBrowser(){
         driver.close();
     }
+    
+    public void dummyCode() {
+    	System.out.println("this is the code writtten in Indian timings by Rk2");
+    	
+    }
+    
 }
