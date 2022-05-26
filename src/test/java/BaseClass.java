@@ -54,8 +54,8 @@ public class BaseClass {
     }
 
     public void addedOnBranch() {
-    	//added just to check 
-
+        //added just to check
+    }
     public void masterbranch() {
     	//added on gitbyrahul
     }
