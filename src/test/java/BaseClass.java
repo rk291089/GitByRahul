@@ -52,9 +52,12 @@ public class BaseClass {
     	System.out.println("US guys commited this code");
     	
     }
-    
+
     public void addedOnBranch() {
     	//added just to check 
+
+    public void masterbranch() {
+    	//added on gitbyrahul
     }
 
 
