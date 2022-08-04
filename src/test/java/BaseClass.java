@@ -1,4 +1,9 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.netty.channel.pool.FixedChannelPool.AcquireTimeoutAction;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -40,7 +45,7 @@ public class BaseClass {
     public void intBrowser(){
     driver.get("https://rahulshettyacademy.com/AutomationPractice/");
     driver.manage().window().maximize();
-    System.out.println(driver);
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     public void terminateBrowser(){
@@ -53,20 +58,5 @@ public class BaseClass {
     	
     }
 
-    public void addedOnBranch() {
-        //added just to check
-    }
-    public void masterbranch() {
-    	//added on gitbyrahul
-    }
-
-    // Added on LearIT master branch, and it has been committed
-
-    // added on LearIT develop2 branch and committed
-
-
-    //123434567788
-
-    //fhskgfagsfkagfas
-
+   
 }

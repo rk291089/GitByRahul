@@ -1,8 +1,5 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-import javax.swing.*;
-import java.util.Set;
 
 public class HomePage extends BaseClass{
 
@@ -31,7 +28,6 @@ public class HomePage extends BaseClass{
 
     public void getTitle(){
        String title= driver.getTitle();
-        System.out.println(title);
         System.out.println(title);
     }
 
